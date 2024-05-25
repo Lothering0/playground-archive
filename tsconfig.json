@@ -38,7 +38,8 @@
   "watchOptions": {
     "watchFile": "useFsEvents",
     "watchDirectory": "useFsEvents",
-    "fallbackPolling": "dynamicPriority" // Poll for updates more frequently
+    "fallbackPolling": "dynamicPriority", // Poll for updates more frequently
+    "excludeDirectories": ["**/node_modules"]
   },
   // "include": ["./**/*.ts"],
   "include": ["./index.ts"],

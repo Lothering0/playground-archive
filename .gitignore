@@ -1,0 +1,18 @@
+.git
+node_modules/
+dist/
+
+# TypeScript files
+*.ts
+
+# Vue files
+*.vue
+
+# Haskell files
+*.hs
+Main
+Main.o
+Main.hi
+
+# Plain text files
+*.txt

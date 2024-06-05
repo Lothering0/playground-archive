@@ -28,6 +28,7 @@
     // Legacy decorators
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "useDefineForClassFields": false,
 
     // Linter Checks
     "noImplicitReturns": true,
